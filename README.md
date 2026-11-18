@@ -1,3 +1,42 @@
+🤖 Assistente Virtual Blip Demo
+📌 Visão Geral
+Projeto de Inteligência Conversacional utilizando:
+
+Python
+Flask
+SQLite
+Streamlit
+Plotly
+📸 Demonstração
+Dashboard
+Dashboard
+
+Consulta Conversacional
+Consulta
+
+CRUD Conversacional
+CRUD
+
+🚀 Funcionalidades
+✅ CRUD Conversacional
+
+✅ Dashboard em tempo real
+
+✅ Gráficos Plotly
+
+✅ Linguagem Natural
+
+✅ Integração API REST
+
+🏗 Arquitetura
+Usuário
+↓
+Streamlit
+↓
+Flask
+↓
+SQLite
+
 👨‍💻 Autor
 
 Antonio
