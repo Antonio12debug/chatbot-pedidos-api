@@ -11,7 +11,7 @@ Consulta Conversacional
 Consulta
 
 CRUD Conversacional
-CRUD
+CRUD Conversacional
 
 Tecnologias
 Python
