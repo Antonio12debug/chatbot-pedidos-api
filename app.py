@@ -120,8 +120,14 @@ def criar_pedido():
         print("❌ ERRO AO INSERIR:")
         print(e)
 
+        if "UNIQUE constraint failed" in str(e):
+
+            return jsonify({
+                "erro": "Pedido já existe."
+            }), 400
+
         return jsonify({
-            "erro": str(e)
+            "erro": "Erro ao criar pedido."
         }), 500
 
     finally:
