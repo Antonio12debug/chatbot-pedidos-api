@@ -4,7 +4,7 @@ Projeto desenvolvido para simular uma plataforma de inteligência conversacional
 
 A aplicação permite consultar, criar, atualizar e remover pedidos utilizando linguagem natural através de uma interface web desenvolvida em Streamlit.
 
-![alt text](image.png)
+![alt text](image-1.png)
 
 Tecnologias
 Python
