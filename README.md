@@ -4,14 +4,7 @@ Projeto desenvolvido para simular uma plataforma de inteligência conversacional
 
 A aplicação permite consultar, criar, atualizar e remover pedidos utilizando linguagem natural através de uma interface web desenvolvida em Streamlit.
 
-Dashboard
-Dashboard
-
-Consulta Conversacional
-Consulta
-
-CRUD Conversacional
-CRUD Conversacional
+![alt text](image.png)
 
 Tecnologias
 Python
