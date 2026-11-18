@@ -3,7 +3,6 @@
 Projeto de Inteligência Conversacional utilizando Python.
 
 A aplicação permite consultar, criar, atualizar e remover pedidos utilizando linguagem natural através de uma interface web desenvolvida com Streamlit.
-
 📸 Demonstração
 Dashboard
 Dashboard
@@ -14,7 +13,7 @@ Consulta
 CRUD Conversacional
 CRUD Conversacional
 
-🚀 Tecnologias Utilizadas
+ Tecnologias Utilizadas
 Python
 Flask
 SQLite
