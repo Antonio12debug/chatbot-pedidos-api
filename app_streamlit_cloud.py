@@ -3,7 +3,48 @@ import sqlite3
 import pandas as pd
 import plotly.express as px
 import re
+import os
 
+def criar_banco():
+
+    os.makedirs(
+        "database",
+        exist_ok=True
+    )
+
+    conn = sqlite3.connect(
+        "database/pedidos.db"
+    )
+
+    cursor = conn.cursor()
+
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS pedidos (
+        id INTEGER PRIMARY KEY,
+        cliente TEXT,
+        status TEXT
+    )
+    """)
+
+    pedidos_iniciais = [
+        (101, "João", "Em transporte"),
+        (102, "Maria", "Entregue"),
+        (103, "Pedro", "Em separação")
+    ]
+
+    for pedido in pedidos_iniciais:
+
+        cursor.execute(
+            """
+            INSERT OR IGNORE INTO pedidos
+            VALUES (?, ?, ?)
+            """,
+            pedido
+        )
+
+    conn.commit()
+
+    conn.close()
 
 def conectar():
     return sqlite3.connect(
@@ -127,7 +168,7 @@ def remover_pedido(
 
     conn.close()
 
-
+criar_banco()
 st.set_page_config(
     page_title="Assistente Virtual",
     page_icon="🤖",
