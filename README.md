@@ -1,13 +1,67 @@
-# Assistente Virtual Blip Demo
+# 🤖 Assistente Virtual Blip Demo
 
-## Dashboard
+## 📌 Visão Geral
 
-![Dashboard](images/dashboard.png)
+Projeto de Inteligência Conversacional utilizando Python.
 
-## Consulta Conversacional
+A aplicação permite consultar, criar, atualizar e remover pedidos utilizando linguagem natural através de uma interface web desenvolvida com Streamlit.
 
-![Consulta](images/consulta.png)
+---
 
-## CRUD Conversacional
+## 📸 Demonstração
 
-![CRUD](images/crud-chat.png)
+### Dashboard
+
+images/dashboard.png
+
+### Consulta Conversacional
+
+images/consulta.png
+
+### CRUD Conversacional
+
+images/crud-chat.png
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- Python
+- Flask
+- SQLite
+- Streamlit
+- Pandas
+- Plotly
+- Requests
+- Git
+- GitHub
+
+---
+
+## 🏗 Arquitetura
+
+```text
+Usuário
+↓
+Chat Streamlit
+↓
+API Flask
+↓
+SQLite
+```
+
+---
+
+## ✅ Funcionalidades
+
+- CRUD Conversacional
+- Dashboard em tempo real
+- Gráficos Plotly
+- Linguagem Natural
+- Integração API REST
+
+---
+
+## 👨‍💻 Autor
+
+Antonio Cesar Lopes
