@@ -7,6 +7,13 @@ Projeto de Inteligência Conversacional utilizando Python.
 A aplicação permite consultar, criar, atualizar e remover pedidos utilizando linguagem natural através de uma interface web desenvolvida com Streamlit.
 
 ---
+## 🌐 Demonstração Online
+
+A aplicação está disponível em:
+
+https://chatbot-pedidos-api-gpdpbjxux4w4yl33t6adod.streamlit.app
+
+---
 
 ### Dashboard
 
