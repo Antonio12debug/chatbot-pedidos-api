@@ -1,3 +1,2 @@
 Dashboard
-Consulta
-CRUD
+ConsultaCRUD
