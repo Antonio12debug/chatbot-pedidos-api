@@ -8,19 +8,11 @@ A aplicação permite consultar, criar, atualizar e remover pedidos utilizando l
 
 ---
 
-## 📸 Demonstração
+# Assistente Virtual Blip Demo
 
-### Dashboard
+## Dashboard
 
 images/dashboard.png
-
-### Consulta Conversacional
-
-images/consulta.png
-
-### CRUD Conversacional
-
-images/crud-chat.png
 
 ---
 
